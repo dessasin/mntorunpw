@@ -1,43 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
-html{
-    font-family: 'Press Start 2P', cursive;
+html {
+	font-family: 'Press Start 2P', cursive;
 }
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
-body{
-    background-color: #181B1E;
+body {
+	background-color: #181b1e;
 }
-.master-container{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
+.master-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 1%;
 }
-.navbar__text{
-    
-   font-size:large ;
-   font-weight: 300;
-   color: white;
-   
+.navbar__text {
+	font-size: large;
+	font-weight: 300;
+	color: white;
 }
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 10vh;
-   
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 10vh;
 }
 nav ul {
-    list-style: none;
-    display: flex;
-   
+	list-style: none;
+	display: flex;
 }
 
-nav ul li{
-    font-size:12px ;
-    font-weight: 200;
-    padding-left: 20px;
-    color: white;
-    justify-content: space-evenly;
+nav ul li {
+	font-size: 12px;
+	font-weight: 200;
+	padding-left: 20px;
+	color: white;
+	justify-content: space-evenly;
+}
+.avatar {
+	vertical-align: middle;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.intro {
+	margin-top: 11vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.intro p {
+    padding: 2vh 10vw 10vw 10vw;    
+    text-align: center;
+	font-size: 13px;
+	color: white;
+	font-weight: 200;
 }
