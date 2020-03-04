@@ -7,7 +7,8 @@ a {
 	text-decoration: none;
 }
 body {
-	background-color: #181b1e;
+	background-color: #212529;
+	box-sizing: border-box;
 }
 .master-container {
 	padding-left: 10%;
@@ -30,7 +31,7 @@ nav ul {
 	display: flex;
 }
 
-nav ul li {
+nav ul li a {
 	font-size: 12px;
 	font-weight: 200;
 	padding-left: 20px;
@@ -45,7 +46,7 @@ nav ul li {
 }
 
 .intro {
-	margin-top: 11vh;
+	margin-top: 5vh;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -53,9 +54,47 @@ nav ul li {
 }
 
 .intro p {
-    padding: 2vh 10vw 10vw 10vw;    
-    text-align: center;
+	padding: 2vh 10vw 1vw 10vw;
+	text-align: center;
 	font-size: 13px;
 	color: white;
-	font-weight: 200;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+h5{
+    color: crimson;
+    text-align: center;
+    font-size: small;
+}
+.skills{
+    position: relative;
+    left: 20%;
+    margin-top: 20px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.skill p{
+    color: cornflowerblue;
+    font-size: 12px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.social{
+    position: relative;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 9vh;
+    left: 35%;
+}
+.social .social__icon__list i{
+    padding-left: 24px;
 }
