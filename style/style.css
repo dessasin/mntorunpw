@@ -58,43 +58,42 @@ nav ul li a {
 	text-align: center;
 	font-size: 13px;
 	color: white;
-    font-weight: 200;
-    letter-spacing: 0.5px;
+	font-weight: 200;
+	letter-spacing: 0.5px;
 }
 
-h5{
-    color: crimson;
-    text-align: center;
-    font-size: small;
+h5 {
+	color: crimson;
+	text-align: center;
+	font-size: small;
 }
-.skills{
-    position: relative;
-    left: 20%;
-    margin-top: 20px;
-    width: 50vw;
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
+.skills {
+	position: relative;
+	left: 20%;
+	margin-top: 20px;
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
-.skill p{
-    color: cornflowerblue;
-    font-size: 12px;
+.skill p {
+	color: cornflowerblue;
+	font-size: 12px;
 }
-.skill{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
+.skill {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 }
-.social{
-    position: relative;
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 9vh;
-    left: 35%;
+.social {
+	position: relative;
+	width: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-top: 9vh;
+	left: 35%;
 }
-.social .social__icon__list i{
-    padding-left: 24px;
+.social .social__icon__list i {
+	padding-left: 24px;
 }
