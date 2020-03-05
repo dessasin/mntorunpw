@@ -75,6 +75,7 @@ h5 {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .skill p {
 	color: cornflowerblue;
@@ -84,6 +85,7 @@ h5 {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	flex-wrap: wrap;
 }
 .social {
 	position: relative;
@@ -96,4 +98,22 @@ h5 {
 }
 .social .social__icon__list i {
 	padding-left: 24px;
+}
+
+@media (max-width: 990px) {
+	.skill_icons {
+		display: flex;
+	}
+	.social {
+		left: 30%;
+	}
+}
+
+@media (max-width: 750px) {
+	.social {
+		left: 25%;
+	}
+	.skills {
+		flex-direction: column;
+	}
 }
