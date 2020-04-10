@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+	color: #eee;
+	line-height: 2;
+}
+
+html, body {
+	overflow-x: hidden;
+	font-family: 'Press Start 2P', cursive;
+	background-color: #212529;
+	box-sizing: border-box;
+}
+
+body > a {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+
+	padding: 5px 10px;
+	background: tomato;
+
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+}
+
+header {
+	padding: 80px;
+	width: 100%;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 25px;
+}
+
+nav {
+	text-align: center;
+}
+
+nav a {
+	padding: 10px;
+	display: inline;
+	line-break: strict;
+	text-decoration: underline;
+}
+
+.avatar {
+	margin-bottom: 30px;
+	width: 200px;
+	vertical-align: middle;
+	border-radius: 30px;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.intro p {
+	padding: 1vh 5vw;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+}
+
+h5 {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: crimson;
+	text-align: center;
+	text-decoration: underline;
+}
+
+#skills {
+	margin-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.skill {
+	padding: 20px 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.skill p {
+	color: cornflowerblue;
+	font-size: 12px;
+}
+
+#social {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+#social a {
+	margin: 0px 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	.intro {
+		padding: 1vh 20vw;
+	}
+
+	#skills {
+		grid-template-columns: repeat(4, auto);
+		justify-content: center;
+	}
+}

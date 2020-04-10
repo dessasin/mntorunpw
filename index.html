@@ -1,85 +1,99 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style/reset.css">
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style/style.css">
-    <title>Welcome!</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#212529">
+
+	<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Welcome!</title>
 </head>
+
 <body>
-    <div class="master-container">
-        <div class="navbar">
-            <div class="navbar__text"><p>Mntorun.pw</p></div>
-            <nav><ul>
-            <li><a href="Muhammed_Nurullah_Torun_Resume.pdf" download>CV</a></li>
-            <li><a href="mailto:mntorun@protonmail.com" target="_top">Contact</a></li>
-            <li><a href="https://github.com/dessasin/mntorunpw" target="_blank">Fork Me!</a></li>
-            </ul></nav>
-        </div>
-        <div class="intro">
-            <img src="img/pp.jpg" alt="" class="avatar">
-            <p>Hi,I'm Muhammed Nurullah. 
-            Here I have been interested in programming for a long time and trying to improve myself in front-end technologies.
-            If you want to know more about me,you can download my CV file,
-            reach me on social media accounts and send mail.
-            </p>
-        </div>
-        <h5>My Skills</h5>
-        <div class="skills">
-            
-            <div class="skill">
-                <p>HTML</p>
-                <section class="skill_icons ">
-                   
-                    <i class="nes-icon is-small heart"></i>
-                    <i class="nes-icon is-small  heart"></i>
-                    <i class="nes-icon is-small heart"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                </section>
-            </div>
-            <div class="skill">
-                <p>CSS3</p>
-                <section class="skill_icons">
-                   
-                    <i class="nes-icon is-small heart"></i>
-                    <i class="nes-icon is-small  heart"></i>
-                    <i class="nes-icon is-small heart is-half"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                </section>
-            </div>
-            <div class="skill">
-                <p>Javascript</p>
-                <section class="skill_icons">
-                   
-                    <i class="nes-icon is-small heart"></i>
-                    <i class="nes-icon is-small is-half heart"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                </section>
-            </div>
-            <div class="skill">
-                <p>Design</p>
-                <section class="skill_icons">
-                   
-                    <i class="nes-icon is-small heart"></i>
-                    <i class="nes-icon is-small is-half heart"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                    <i class="nes-icon is-small heart is-empty"></i>
-                </section>
-            </div>
-        </div>
-       <div class="social">
-           <section class="social__icon__list">
-           <a href="https://twitter.com/dessasin" target="_blank"><i class="nes-icon twitter is-medium"></i></a> 
-           <a href="https://github.com/dessasin" target="_blank"><i class="nes-icon github is-medium"></i></a> 
-           <a href="https://www.reddit.com/user/Dessasin" target="_blank"><i class="nes-icon reddit is-medium"></i></a>
-           </section>
-           
-       </div>
-    </div>
-    
+	<!-- FORK ME THINGY -->
+	<a href="https://github.com/dessasin/mntorunpw" target="_blank">
+		Fork Me!
+	</a>
+
+	<!-- HEADER -->
+	<header>
+		<h1>Mntorun.pw</h1>
+
+		<nav>
+			<a href="Muhammed_Nurullah_Torun_Resume.pdf" download>CV</a>
+			<a href="mailto:mntorun@protonmail.com" target="_top">Contact</a>
+		</nav>
+	</header>
+
+	<!-- SELF INTRODUCTION -->
+	<div class="intro">
+		<img src="img/pp.jpg" alt="" class="avatar">
+		<p class="nes-text is-primary">
+			Hi,I'm Muhammed Nurullah!
+		</p>
+		<p>
+			I have been interested in programming for a very long
+			time and trying to improve myself in front-end
+			technologies.
+		</p>
+	</div>
+
+	<!-- SKILL (OBVIOUSLY) -->
+	<h5>My Skills</h5>
+	<div id="skills">
+		<div class="skill">
+			<p>HTML</p>
+			<section class="skill_icons ">
+				<i class="nes-icon is-small heart"></i>
+				<i class="nes-icon is-small  heart"></i>
+				<i class="nes-icon is-small heart"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+			</section>
+		</div>
+		<div class="skill">
+			<p>CSS3</p>
+			<section class="skill_icons">
+				<i class="nes-icon is-small heart"></i>
+				<i class="nes-icon is-small  heart"></i>
+				<i class="nes-icon is-small heart is-half"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+			</section>
+		</div>
+		<div class="skill">
+			<p>Javascript</p>
+			<section class="skill_icons">
+				<i class="nes-icon is-small heart"></i>
+				<i class="nes-icon is-small is-half heart"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+			</section>
+		</div>
+		<div class="skill">
+			<p>Design</p>
+			<section class="skill_icons">
+				<i class="nes-icon is-small heart"></i>
+				<i class="nes-icon is-small is-half heart"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+				<i class="nes-icon is-small heart is-empty"></i>
+			</section>
+		</div>
+	</div>
+
+	<!-- LINKS -->
+	<h5>Contact Me</h5>
+	<div id="social">
+		<a href="https://twitter.com/dessasin" target="_blank">
+			<i class="nes-icon twitter is-medium"></i>
+		</a>
+		<a href="https://github.com/dessasin" target="_blank">
+			<i class="nes-icon github is-medium"></i>
+		</a>
+		<a href="https://www.reddit.com/user/Dessasin" target="_blank">
+			<i class="nes-icon reddit is-medium"></i>
+		</a>
+	</div>
 </body>
 </html>
