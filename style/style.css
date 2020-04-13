@@ -68,8 +68,6 @@ h5 {
 	font-size: small;
 }
 .skills {
-	position: relative;
-	left: 20%;
 	margin-top: 20px;
 	width: 50vw;
 	display: flex;
@@ -99,15 +97,9 @@ h5 {
 	.skill_icons {
 		display: flex;
 	}
-	.social {
-		left: 30%;
-	}
 }
 
 @media (max-width: 750px) {
-	.social {
-		left: 25%;
-	}
 	.skills {
 		flex-direction: column;
 	}
@@ -116,9 +108,6 @@ h5 {
 @media (max-width: 565px) {
 	nav ul li a {
 		padding-left: 7px;
-	}
-	.social {
-		left: 20%;
 	}
 	.navbar__text {
 		font-size: smaller;
