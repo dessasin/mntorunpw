@@ -88,13 +88,8 @@ h5 {
 	flex-wrap: wrap;
 }
 .social {
-	position: relative;
 	width: 300px;
-	display: flex;
-	align-items: center;
-	justify-content: space-evenly;
 	margin-top: 9vh;
-	left: 35%;
 }
 .social .social__icon__list i {
 	padding-left: 24px;
